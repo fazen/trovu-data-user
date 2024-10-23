@@ -47,9 +47,7 @@ jw 1:
   - arguments: simpsons
     description: Search for "simpsons"
 rep 0:
-  url: 
-rep 1:
-  url: 
+rep 1: 
 zal 0:
   url: https://www.zalando.it/
   title: Zalando.it
