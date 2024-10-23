@@ -46,8 +46,8 @@ jw 1:
   examples:
   - arguments: simpsons
     description: Search for "simpsons"
-rep 0:
-rep 1: 
+rep 0: https://www.newsblur.com/
+rep 1: https://www.newsblur.com/
 zal 0:
   url: https://www.zalando.it/
   title: Zalando.it
