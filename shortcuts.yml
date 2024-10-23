@@ -9,3 +9,58 @@ examplekeyword 2:
   description: My custom shortcut with the keyword examplekeyword and 2 arguments.
   tags:
   - example
+a 0:
+  url: https://www.amazon.it/
+  title: Amazon.it
+  tags:
+  - amazon
+  - shopping
+  examples:
+  - description: Va alla pagina principale
+a 1:
+  url: https://www.amazon.it/s?k=<ricerca>&linkCode=ll2
+  include: a 0
+  examples:
+  - arguments: shakespeare
+    description: Cerca libri di Shakespeare
+e 0:
+  url: https://www.ebay.it/
+  title: Ebay.it
+  tags:
+  - ebay
+  - is-affiliate
+  - shopping
+  examples:
+  - description: Va alla pagina principale
+e 1:
+  url: https://www.ebay.it/sch/i.html?_nkw=pippo&_sacat=0
+  include: e 0
+  examples:
+  - arguments: smartphone
+    description: Cerca smartphone
+jw 1:
+  url: https://www.justwatch.com/it/cerca?q=<query>
+  include:
+    key: jw 0
+    namespace: o
+  examples:
+  - arguments: simpsons
+    description: Search for "simpsons"
+rep 0:
+  url: 
+rep 1:
+  url: 
+zal 0:
+  url: https://www.zalando.it/
+  title: Zalando.it
+  tags:
+  - shopping
+  - zalando
+  examples:
+  - description: Vai alla pagina principale
+zal 1:
+  url: https://www.zalando.it/catalogo/?q=<prodotto>
+  include: zal 0
+  examples:
+  - arguments: calzature
+    description: Cerca calzature
