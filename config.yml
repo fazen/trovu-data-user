@@ -3,7 +3,6 @@
 namespaces:
 - o
 - it
-- .it
 - github: .
   name: my
 defaultKeyword: d
