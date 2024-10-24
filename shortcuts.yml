@@ -57,6 +57,12 @@ sub 0:
   title: Subito.it
 sub 1:
   url: https://www.subito.it/annunci-italia/vendita/usato/?q=<prodotto>
+t 1:
+  https://www.tellows.com/num/<numero>
+  title: Tellows
+  examples:
+  - arguments: +393393848903
+    description: Search tellows for "+393393848903"
 zal 0:
   url: https://www.zalando.it/
   title: Zalando.it
