@@ -63,6 +63,9 @@ t 1:
   examples:
   - arguments: +393393848903
     description: Search tellows for "+393393848903"
+ustud 1:
+  url: https://segreterie.smartedu.unict.it/Segreterie/Studenti/Default.aspx?srch=<chiave>
+  title: Unict Backoffice: Ricerca studente
 zal 0:
   url: https://www.zalando.it/
   title: Zalando.it
