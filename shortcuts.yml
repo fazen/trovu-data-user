@@ -63,6 +63,12 @@ t 1:
   examples:
   - arguments: +393393848903
     description: Search tellows for "+393393848903"
+tp 0:
+  url: https://www.trovaprezzi.it/
+  title: Trovaprezzi
+tp 1:
+  url: https://www.trovaprezzi.it/categoria.aspx?id=-1&libera=<prodotto>
+  include: tp 0
 ustud 1:
   url: https://segreterie.smartedu.unict.it/Segreterie/Studenti/Default.aspx?srch=<chiave>
   title: "Unict Backoffice: Ricerca studente"
