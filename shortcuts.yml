@@ -20,7 +20,6 @@ e 0:
   title: Ebay.it
   tags:
   - ebay
-  - is-affiliate
   - shopping
   examples:
   - description: Va alla pagina principale
@@ -47,6 +46,8 @@ jw 1:
 sub 0:
   url: https://www.subito.it/
   title: Subito.it
+  tags:
+  - shopping
 sub 1:
   url: https://www.subito.it/annunci-italia/vendita/usato/?q=<prodotto>
 t 1:
@@ -58,6 +59,8 @@ t 1:
 tp 0:
   url: https://www.trovaprezzi.it/
   title: Trovaprezzi
+  tags:
+  - shopping
 tp 1:
   url: https://www.trovaprezzi.it/categoria.aspx?id=-1&libera=<prodotto>
   include: tp 0
