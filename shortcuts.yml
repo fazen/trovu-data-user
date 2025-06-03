@@ -43,6 +43,11 @@ jw 1:
   examples:
   - arguments: simpsons
     description: Search for "simpsons"
+ps 0:
+  url: https://presearch.com/
+ps 1:
+  url: https://presearch.com/search?q=<query>
+  include: ps 0
 sub 0:
   url: https://www.subito.it/
   title: Subito.it
