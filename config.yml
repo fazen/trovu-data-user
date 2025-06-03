@@ -5,6 +5,6 @@ namespaces:
 - it
 - github: .
   name: my
-defaultKeyword: d
+defaultKeyword: ps
 language: it
 country: it
